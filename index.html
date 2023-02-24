@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,minimum-scale=1">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+<body>
+    <input type="checkbox" name="" id="sidebar-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <div class="brand-flex">
+                <img src="images/logo.png" width="30px">
+
+                <div class="brand-icons">
+                    <span class="las la-bell"></span>
+                    <span class="las la-user-circle"></span>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-main">
+            <div class="sidebar-user">
+                <img src="images/images.jpg" alt="">
+                <div>
+                    <h3>Adam Johnson</h3>
+                    <span>adamjohnson@gmali.com</span>
+                </div>
+            </div>
+        </div>
+            <div class="sidebar-menu">
+                <div class="menu-head">
+                    <span>Dashboard</span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="las la-balance-scale"></span>
+                            Finance
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="las la-chart-pie"></span>
+                            Analytics
+                        </a>
+                    </li>
+                </ul>
+                <div class="menu-head">
+                    <span>Applications</span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="las la-calendar"></span>
+                            Calendar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="las la-users"></span>
+                            Contacts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="las la-shopping-cart"></span>
+                            Ecommerce
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="las la-envelope"></span>
+                            Mailbox
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="las la-check-circle"></span>
+                            Tasks
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="main-content">
+        <!----- main header ---->
+        <header>
+            <div class="menu-toggle">
+                <label for="sidebar-toggle">
+                    <span class="las la-bars"></span>
+                </label>
+            </div>
+            <div class="header-icons">
+                <span class="las la-search"></span>
+                <span class="las la-boolmark"></span>
+                <span class="las la-sms"></span>
+            </div>
+        </header>
+             
+        <main>
+            <div class="page-header">
+                <div>
+                    <h1>Analytics Dashboard</h1>
+                    <small>Moniter ket metrics.check reporting and remove insights</small>
+                </div>
+                <div class="header-actions">
+                    <button>
+                        <span class="las la-file-export"></span>
+                        Export
+                    </button>
+                    <button>
+                        <span class="las la-tools"></span>
+                        Settings
+                    </button>
+                </div>
+            </div>
+
+            <!------card section  -->
+            <div class="cards">
+                <div class="card-single">
+                    <div class="card-flex">
+                        <div class="card-info">
+                            <div class="card-head">
+                                <span>Purchases</span>
+                                <small>Number of Purchases</small>
+                            </div>
+                            <h2>9,80663</h2>
+                            <small>2% less Purchase</small>
+                        </div>
+                            <div class="card-chart success">
+                                <span class="las la-chart-line"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-single">
+                        <div class="card-flex">
+                            <div class="card-info">
+                                <div class="card-head">
+                                    <span>Unique visitors</span>
+                                    <small>Number of Visitors</small>
+                                </div>
+                                <h2>46,8663</h2>
+                                <small>6% less  visitors</small>
+                            </div>
+                                <div class="card-chart danger">
+                                    <span class="las la-chart-line"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-single  ">
+                            <div class="card-flex">
+                                <div class="card-info">
+                                    <div class="card-head">
+                                        <span>Refunds</span>
+                                        <small> Value of refunded orders</small>
+                                    </div>
+                                    <h2>$4,663</h2>
+                                    <small>1% less Purchase</small>
+                                </div>
+                                    <div class="card-chart yellow">
+                                        <span class="las la-chart-line"></span>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+                 
+                <!--jobs sections-->
+                <div class="jobs-grid">
+                    <div class="analytics-card">
+                        <div class="analytics-head">
+                            <h2>Actions needed</h2>
+                            <span class="las la-ellipsis-h"></span>
+                        </div>
+                        <div class="analytics-chart">
+                            <div class="chart-circle">
+                                <h1>74%</h1>
+                            </div>
+
+                            <div class="analytics-note">
+                                <small>
+                                    note: Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                                    amet accusamus nam.  
+                                </small>
+                            </div>
+                        </div>
+                        <div class="analytics-btn">
+                            <button>Generate report</button>
+                        </div>
+                  </div>
+
+                    <div class="jobs">
+                        <h2>Jobs <small>See all jobs <span class="las la-arrow-right"></span></small></h2>
+                        <div class="table-responsive">
+                            <table width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <span class="indicator even"></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Customer experience designer
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Design
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Copenhagen Dk
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Posted 6 days ago
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button>9 applicants</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <span class="indicator"></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Software Developer
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Developer
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Copenhagen Dk.
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Posted 6 days ago
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <button> 3 applicants</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <span class="indicator even"></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Customer experience designer
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Design
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Copenhagen Dk
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Posted 6 days ago
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button>9 applicants</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <span class="indicator"></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Software Developer
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Developer
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Copenhagen Dk.
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Posted 6 days ago
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <button> 3 applicants</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <span class="indicator even"></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Customer experience designer
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Design
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Copenhagen Dk
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Posted 6 days ago
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button>9 applicants</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <span class="indicator"></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Software Developer
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Developer
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Copenhagen Dk.
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                Posted 6 days ago
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <button> 3 applicants</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+        </main>
+    </div>
+    <label for="sidebar-toggle" class="body-label"></label>
+
+
+</body>
+
+</html>
